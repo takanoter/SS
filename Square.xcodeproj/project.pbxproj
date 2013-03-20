@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0218A1EA16F9FD3700DF678E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0218A1E916F9FD3700DF678E /* UIKit.framework */; };
+		0218A1EC16F9FD3700DF678E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0218A1EB16F9FD3700DF678E /* Foundation.framework */; };
+		0218A1EE16F9FD3700DF678E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0218A1ED16F9FD3700DF678E /* CoreGraphics.framework */; };
+		0218A1F416F9FD3700DF678E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0218A1F216F9FD3700DF678E /* InfoPlist.strings */; };
+		0218A1F616F9FD3700DF678E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0218A1F516F9FD3700DF678E /* main.m */; };
+		0218A1FA16F9FD3700DF678E /* SquareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0218A1F916F9FD3700DF678E /* SquareAppDelegate.m */; };
+		0218A1FC16F9FD3700DF678E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0218A1FB16F9FD3700DF678E /* Default.png */; };
+		0218A1FE16F9FD3700DF678E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0218A1FD16F9FD3700DF678E /* Default@2x.png */; };
+		0218A20016F9FD3700DF678E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0218A1FF16F9FD3700DF678E /* Default-568h@2x.png */; };
+		0218A20316F9FD3700DF678E /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0218A20216F9FD3700DF678E /* SquareViewController.m */; };
+		0218A20616F9FD3700DF678E /* SquareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0218A20416F9FD3700DF678E /* SquareViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0218A1E616F9FD3700DF678E /* Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0218A1E916F9FD3700DF678E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0218A1EB16F9FD3700DF678E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0218A1ED16F9FD3700DF678E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0218A1F116F9FD3700DF678E /* Square-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Square-Info.plist"; sourceTree = "<group>"; };
+		0218A1F316F9FD3700DF678E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0218A1F516F9FD3700DF678E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0218A1F716F9FD3700DF678E /* Square-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Square-Prefix.pch"; sourceTree = "<group>"; };
+		0218A1F816F9FD3700DF678E /* SquareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareAppDelegate.h; sourceTree = "<group>"; };
+		0218A1F916F9FD3700DF678E /* SquareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareAppDelegate.m; sourceTree = "<group>"; };
+		0218A1FB16F9FD3700DF678E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0218A1FD16F9FD3700DF678E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0218A1FF16F9FD3700DF678E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0218A20116F9FD3700DF678E /* SquareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
+		0218A20216F9FD3700DF678E /* SquareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
+		0218A20516F9FD3700DF678E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SquareViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0218A1E316F9FD3700DF678E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0218A1EA16F9FD3700DF678E /* UIKit.framework in Frameworks */,
+				0218A1EC16F9FD3700DF678E /* Foundation.framework in Frameworks */,
+				0218A1EE16F9FD3700DF678E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0218A1DD16F9FD3700DF678E = {
+			isa = PBXGroup;
+			children = (
+				0218A1EF16F9FD3700DF678E /* Square */,
+				0218A1E816F9FD3700DF678E /* Frameworks */,
+				0218A1E716F9FD3700DF678E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0218A1E716F9FD3700DF678E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0218A1E616F9FD3700DF678E /* Square.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0218A1E816F9FD3700DF678E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0218A1E916F9FD3700DF678E /* UIKit.framework */,
+				0218A1EB16F9FD3700DF678E /* Foundation.framework */,
+				0218A1ED16F9FD3700DF678E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0218A1EF16F9FD3700DF678E /* Square */ = {
+			isa = PBXGroup;
+			children = (
+				0218A1F816F9FD3700DF678E /* SquareAppDelegate.h */,
+				0218A1F916F9FD3700DF678E /* SquareAppDelegate.m */,
+				0218A20116F9FD3700DF678E /* SquareViewController.h */,
+				0218A20216F9FD3700DF678E /* SquareViewController.m */,
+				0218A20416F9FD3700DF678E /* SquareViewController.xib */,
+				0218A1F016F9FD3700DF678E /* Supporting Files */,
+			);
+			path = Square;
+			sourceTree = "<group>";
+		};
+		0218A1F016F9FD3700DF678E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0218A1F116F9FD3700DF678E /* Square-Info.plist */,
+				0218A1F216F9FD3700DF678E /* InfoPlist.strings */,
+				0218A1F516F9FD3700DF678E /* main.m */,
+				0218A1F716F9FD3700DF678E /* Square-Prefix.pch */,
+				0218A1FB16F9FD3700DF678E /* Default.png */,
+				0218A1FD16F9FD3700DF678E /* Default@2x.png */,
+				0218A1FF16F9FD3700DF678E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0218A1E516F9FD3700DF678E /* Square */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0218A20916F9FD3700DF678E /* Build configuration list for PBXNativeTarget "Square" */;
+			buildPhases = (
+				0218A1E216F9FD3700DF678E /* Sources */,
+				0218A1E316F9FD3700DF678E /* Frameworks */,
+				0218A1E416F9FD3700DF678E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Square;
+			productName = Square;
+			productReference = 0218A1E616F9FD3700DF678E /* Square.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0218A1DE16F9FD3700DF678E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Square;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = takanoter;
+			};
+			buildConfigurationList = 0218A1E116F9FD3700DF678E /* Build configuration list for PBXProject "Square" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0218A1DD16F9FD3700DF678E;
+			productRefGroup = 0218A1E716F9FD3700DF678E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0218A1E516F9FD3700DF678E /* Square */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0218A1E416F9FD3700DF678E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0218A1F416F9FD3700DF678E /* InfoPlist.strings in Resources */,
+				0218A1FC16F9FD3700DF678E /* Default.png in Resources */,
+				0218A1FE16F9FD3700DF678E /* Default@2x.png in Resources */,
+				0218A20016F9FD3700DF678E /* Default-568h@2x.png in Resources */,
+				0218A20616F9FD3700DF678E /* SquareViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0218A1E216F9FD3700DF678E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0218A1F616F9FD3700DF678E /* main.m in Sources */,
+				0218A1FA16F9FD3700DF678E /* SquareAppDelegate.m in Sources */,
+				0218A20316F9FD3700DF678E /* SquareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0218A1F216F9FD3700DF678E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0218A1F316F9FD3700DF678E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0218A20416F9FD3700DF678E /* SquareViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0218A20516F9FD3700DF678E /* en */,
+			);
+			name = SquareViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0218A20716F9FD3700DF678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0218A20816F9FD3700DF678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0218A20A16F9FD3700DF678E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Square/Square-Prefix.pch";
+				INFOPLIST_FILE = "Square/Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0218A20B16F9FD3700DF678E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Square/Square-Prefix.pch";
+				INFOPLIST_FILE = "Square/Square-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0218A1E116F9FD3700DF678E /* Build configuration list for PBXProject "Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0218A20716F9FD3700DF678E /* Debug */,
+				0218A20816F9FD3700DF678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0218A20916F9FD3700DF678E /* Build configuration list for PBXNativeTarget "Square" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0218A20A16F9FD3700DF678E /* Debug */,
+				0218A20B16F9FD3700DF678E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0218A1DE16F9FD3700DF678E /* Project object */;
+}
