@@ -18,6 +18,21 @@
 		0218A20016F9FD3700DF678E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0218A1FF16F9FD3700DF678E /* Default-568h@2x.png */; };
 		0218A20316F9FD3700DF678E /* SquareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0218A20216F9FD3700DF678E /* SquareViewController.m */; };
 		0218A20616F9FD3700DF678E /* SquareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0218A20416F9FD3700DF678E /* SquareViewController.xib */; };
+		0218A20D16FA118B00DF678E /* KeyLineManager.h in Resources */ = {isa = PBXBuildFile; fileRef = 0218A20C16FA118B00DF678E /* KeyLineManager.h */; };
+		0218A20F16FA11F300DF678E /* KeyLineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0218A20E16FA11F300DF678E /* KeyLineManager.m */; };
+		024C264417349882004B91F1 /* ASPriorityQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C263F17349882004B91F1 /* ASPriorityQueue.m */; };
+		024C264517349882004B91F1 /* BMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C264117349882004B91F1 /* BMS.m */; };
+		024C264617349882004B91F1 /* TimelineNotes.m in Sources */ = {isa = PBXBuildFile; fileRef = 024C264317349882004B91F1 /* TimelineNotes.m */; };
+		024C26531734989C004B91F1 /* Entrance -another Ver.-(HD).bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C264B1734989C004B91F1 /* Entrance -another Ver.-(HD).bms */; };
+		024C26541734989C004B91F1 /* Entrance -Another ver.-(Image).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 024C264C1734989C004B91F1 /* Entrance -Another ver.-(Image).jpg */; };
+		024C26551734989C004B91F1 /* Entrance -Another ver.-(Intro).txt in Resources */ = {isa = PBXBuildFile; fileRef = 024C264D1734989C004B91F1 /* Entrance -Another ver.-(Intro).txt */; };
+		024C26561734989C004B91F1 /* Entrance -another Ver.-(MX).bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C264E1734989C004B91F1 /* Entrance -another Ver.-(MX).bms */; };
+		024C26571734989C004B91F1 /* Entrance -another Ver.-(NM).bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C264F1734989C004B91F1 /* Entrance -another Ver.-(NM).bms */; };
+		024C26581734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp in Resources */ = {isa = PBXBuildFile; fileRef = 024C26501734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp */; };
+		024C265917349928004B91F1 /* Entrance -another Ver.-(EZ).bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C265B17349928004B91F1 /* Entrance -another Ver.-(EZ).bms */; };
+		024C26681734BC29004B91F1 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024C265F1734BC29004B91F1 /* test.mp3 */; };
+		024C26A41734BF1A004B91F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C26A31734BF1A004B91F1 /* AVFoundation.framework */; };
+		024C26A61734BF29004B91F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C26A51734BF29004B91F1 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +52,24 @@
 		0218A20116F9FD3700DF678E /* SquareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SquareViewController.h; sourceTree = "<group>"; };
 		0218A20216F9FD3700DF678E /* SquareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquareViewController.m; sourceTree = "<group>"; };
 		0218A20516F9FD3700DF678E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SquareViewController.xib; sourceTree = "<group>"; };
+		0218A20C16FA118B00DF678E /* KeyLineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyLineManager.h; sourceTree = "<group>"; };
+		0218A20E16FA11F300DF678E /* KeyLineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyLineManager.m; sourceTree = "<group>"; };
+		024C263E17349882004B91F1 /* ASPriorityQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASPriorityQueue.h; path = ../../BMSReader/BMSReader/ASPriorityQueue.h; sourceTree = "<group>"; };
+		024C263F17349882004B91F1 /* ASPriorityQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASPriorityQueue.m; path = ../../BMSReader/BMSReader/ASPriorityQueue.m; sourceTree = "<group>"; };
+		024C264017349882004B91F1 /* BMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMS.h; path = ../../BMSReader/BMSReader/BMS.h; sourceTree = "<group>"; };
+		024C264117349882004B91F1 /* BMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMS.m; path = ../../BMSReader/BMSReader/BMS.m; sourceTree = "<group>"; };
+		024C264217349882004B91F1 /* TimelineNotes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimelineNotes.h; path = ../../BMSReader/BMSReader/TimelineNotes.h; sourceTree = "<group>"; };
+		024C264317349882004B91F1 /* TimelineNotes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimelineNotes.m; path = ../../BMSReader/BMSReader/TimelineNotes.m; sourceTree = "<group>"; };
+		024C264B1734989C004B91F1 /* Entrance -another Ver.-(HD).bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Entrance -another Ver.-(HD).bms"; sourceTree = "<group>"; };
+		024C264C1734989C004B91F1 /* Entrance -Another ver.-(Image).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Entrance -Another ver.-(Image).jpg"; sourceTree = "<group>"; };
+		024C264D1734989C004B91F1 /* Entrance -Another ver.-(Intro).txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Entrance -Another ver.-(Intro).txt"; sourceTree = "<group>"; };
+		024C264E1734989C004B91F1 /* Entrance -another Ver.-(MX).bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Entrance -another Ver.-(MX).bms"; sourceTree = "<group>"; };
+		024C264F1734989C004B91F1 /* Entrance -another Ver.-(NM).bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Entrance -another Ver.-(NM).bms"; sourceTree = "<group>"; };
+		024C26501734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "Entrance -Another ver.-(sImage).bmp"; sourceTree = "<group>"; };
+		024C265A17349928004B91F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/Entrance -another Ver.-(EZ).bms"; sourceTree = "<group>"; };
+		024C26601734BC29004B91F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/test.mp3; sourceTree = "<group>"; };
+		024C26A31734BF1A004B91F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		024C26A51734BF29004B91F1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024C26A61734BF29004B91F1 /* AudioToolbox.framework in Frameworks */,
+				024C26A41734BF1A004B91F1 /* AVFoundation.framework in Frameworks */,
 				0218A1EA16F9FD3700DF678E /* UIKit.framework in Frameworks */,
 				0218A1EC16F9FD3700DF678E /* Foundation.framework in Frameworks */,
 				0218A1EE16F9FD3700DF678E /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +91,8 @@
 		0218A1DD16F9FD3700DF678E = {
 			isa = PBXGroup;
 			children = (
+				024C26A51734BF29004B91F1 /* AudioToolbox.framework */,
+				024C26A31734BF1A004B91F1 /* AVFoundation.framework */,
 				0218A1EF16F9FD3700DF678E /* Square */,
 				0218A1E816F9FD3700DF678E /* Frameworks */,
 				0218A1E716F9FD3700DF678E /* Products */,
@@ -83,7 +120,16 @@
 		0218A1EF16F9FD3700DF678E /* Square */ = {
 			isa = PBXGroup;
 			children = (
+				024C26471734989C004B91F1 /* Entrance */,
+				024C263E17349882004B91F1 /* ASPriorityQueue.h */,
+				024C263F17349882004B91F1 /* ASPriorityQueue.m */,
+				024C264017349882004B91F1 /* BMS.h */,
+				024C264117349882004B91F1 /* BMS.m */,
+				024C264217349882004B91F1 /* TimelineNotes.h */,
+				024C264317349882004B91F1 /* TimelineNotes.m */,
 				0218A1F816F9FD3700DF678E /* SquareAppDelegate.h */,
+				0218A20C16FA118B00DF678E /* KeyLineManager.h */,
+				0218A20E16FA11F300DF678E /* KeyLineManager.m */,
 				0218A1F916F9FD3700DF678E /* SquareAppDelegate.m */,
 				0218A20116F9FD3700DF678E /* SquareViewController.h */,
 				0218A20216F9FD3700DF678E /* SquareViewController.m */,
@@ -105,6 +151,22 @@
 				0218A1FF16F9FD3700DF678E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		024C26471734989C004B91F1 /* Entrance */ = {
+			isa = PBXGroup;
+			children = (
+				024C265F1734BC29004B91F1 /* test.mp3 */,
+				024C265B17349928004B91F1 /* Entrance -another Ver.-(EZ).bms */,
+				024C264B1734989C004B91F1 /* Entrance -another Ver.-(HD).bms */,
+				024C264C1734989C004B91F1 /* Entrance -Another ver.-(Image).jpg */,
+				024C264D1734989C004B91F1 /* Entrance -Another ver.-(Intro).txt */,
+				024C264E1734989C004B91F1 /* Entrance -another Ver.-(MX).bms */,
+				024C264F1734989C004B91F1 /* Entrance -another Ver.-(NM).bms */,
+				024C26501734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp */,
+			);
+			name = Entrance;
+			path = ../../../Downloads/130403_Entrance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +226,15 @@
 				0218A1FE16F9FD3700DF678E /* Default@2x.png in Resources */,
 				0218A20016F9FD3700DF678E /* Default-568h@2x.png in Resources */,
 				0218A20616F9FD3700DF678E /* SquareViewController.xib in Resources */,
+				0218A20D16FA118B00DF678E /* KeyLineManager.h in Resources */,
+				024C265917349928004B91F1 /* Entrance -another Ver.-(EZ).bms in Resources */,
+				024C26531734989C004B91F1 /* Entrance -another Ver.-(HD).bms in Resources */,
+				024C26541734989C004B91F1 /* Entrance -Another ver.-(Image).jpg in Resources */,
+				024C26551734989C004B91F1 /* Entrance -Another ver.-(Intro).txt in Resources */,
+				024C26561734989C004B91F1 /* Entrance -another Ver.-(MX).bms in Resources */,
+				024C26571734989C004B91F1 /* Entrance -another Ver.-(NM).bms in Resources */,
+				024C26581734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp in Resources */,
+				024C26681734BC29004B91F1 /* test.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +248,10 @@
 				0218A1F616F9FD3700DF678E /* main.m in Sources */,
 				0218A1FA16F9FD3700DF678E /* SquareAppDelegate.m in Sources */,
 				0218A20316F9FD3700DF678E /* SquareViewController.m in Sources */,
+				0218A20F16FA11F300DF678E /* KeyLineManager.m in Sources */,
+				024C264417349882004B91F1 /* ASPriorityQueue.m in Sources */,
+				024C264517349882004B91F1 /* BMS.m in Sources */,
+				024C264617349882004B91F1 /* TimelineNotes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +272,22 @@
 				0218A20516F9FD3700DF678E /* en */,
 			);
 			name = SquareViewController.xib;
+			sourceTree = "<group>";
+		};
+		024C265B17349928004B91F1 /* Entrance -another Ver.-(EZ).bms */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024C265A17349928004B91F1 /* en */,
+			);
+			name = "Entrance -another Ver.-(EZ).bms";
+			sourceTree = "<group>";
+		};
+		024C265F1734BC29004B91F1 /* test.mp3 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				024C26601734BC29004B91F1 /* en */,
+			);
+			name = test.mp3;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +390,7 @@
 				0218A20B16F9FD3700DF678E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
