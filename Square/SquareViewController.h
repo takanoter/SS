@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SquareViewController : UIViewController
+#import "BMS.h"
+@interface SquareViewController : UIViewController {
+    TimelineNotes* timeline;
+    //NSArray *values;
+}
 
 @end
