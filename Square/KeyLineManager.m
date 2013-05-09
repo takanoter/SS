@@ -20,6 +20,11 @@
     self->tagID = tag;
     self->gView = theView;
     self->channel = _channel;
+    self->isShort = true;
+    self->stage = 1;
+    for (int i=0; i<MAX_IMAGE_STAGE; i++) {
+        self->bloom[i] = NULL;
+    }
     [self reset];
     [theView addSubview:image];
     //NSLog(@"hihi %p %p", self->gView, theView);
@@ -34,7 +39,7 @@
 - (void)move:(float)speed {
     self->dy = self->dy - speed;
     image.center = CGPointMake(self->dx, self->dy);
-    if (dy<0) [self reset];
+    if (dy<156) [self reset];
 }
 
 - (void)show {

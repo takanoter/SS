@@ -24,6 +24,7 @@
     NSArray* values;
     AVAudioPlayer *audioPlayer;
     bool first;
+    BeMusic* bm;
 
 }
 @property (retain, nonatomic) IBOutlet UIImageView *KeyLine;
@@ -118,7 +119,7 @@
 
 -(void)openFile
 {
-    BeMusic* bm = [[BeMusic alloc] initFromFile:@"Entrance -another Ver.-(EZ)" ofType:@"bms"];
+    bm = [[BeMusic alloc] initFromFile:@"Entrance -another Ver.-(EZ)" ofType:@"bms"];
     if (nil == bm) {
         NSLog(@"oh failed to init bm");
         return;
@@ -129,6 +130,7 @@
     //[bm dealloc];
     
     values = [timeline->timeBasedNotes allValues];
+    [values retain];
     for (NSObject *obj in values) {
         NSLog(@"dedide:%@ %lf %d %d", obj, ((Note*)obj)->timestamp, ((Note*)obj)->channel, ((Note*)obj)->motion);
     }
@@ -148,6 +150,7 @@
     //UIVC = self;
 //  image.center ＝ CGPointMake(20,40);
     //[UIVC.view addSubview:image];
+    values = nil;
     [self openFile];
     
     
