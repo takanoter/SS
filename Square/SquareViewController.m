@@ -19,11 +19,11 @@
     NSTimer *musicTimer;
     KeyLineManager* mgr;
     UIViewController *UIVC;
-    int syncPatCount;
+    //int syncPatCount;
     float curTimestamp;
-    NSArray* values;
+    //NSArray* values;
     AVAudioPlayer *audioPlayer;
-    bool first;
+    //bool first;
     BeMusic* bm;
 
 }
@@ -38,26 +38,22 @@
     //_KeyLine.center = CGPointMake(_KeyLine.center.x, _KeyLine.center.y-keyline_speed);
     [mgr animate];
     curTimestamp += 0.7/60;
-    //NSLog(@"curTimestamp:%lf", curTimestamp);
-
-    Note* note = [values objectAtIndex:syncPatCount]; //FIXME: out of boundary
-   // NSLog(@"curTimestamp:%lf  note.timestamp:%lf", curTimestamp, note->timestamp);
-    if (first) {
-        first = false;
-    }
+    // NSLog(@"curTimestamp:%lf  note.timestamp:%lf", curTimestamp, note->timestamp);
     
-    while ((note!=nil) && (curTimestamp + 2 /*+595/5*(0.7/60)*/ > note->timestamp)) {
-        NSLog(@"note:timestamp:%lf", note->timestamp);
-        [mgr newCommingOnChannel:(note->channel)%6];
-        ++syncPatCount;
-        note = [values objectAtIndex:syncPatCount];
-        //note = (Note*)array[syncPatCount];
+    Note* note = nil;
+
+    if (timeline->curNotesPos != [timeline->notes count]) {
+        note = [timeline->notes objectAtIndex:timeline->curNotesPos]; //FIXME: out of boundary
     }
-    /*
-    if (syncPatCount % 23 == 0) {
-        [mgr newCommingOnChannel:4];
-    } 
-     */
+    while ((note!=nil) && (curTimestamp + 2 /*+595/5*(0.7/60)*/ > note->timestamp)) {
+        NSLog(@"note:timestamp:%lf channel:%d", note->timestamp, note->channel);
+        [mgr newCommingOnChannel:(note->channel)%6];
+        timeline->curNotesPos++;
+        if (timeline->curNotesPos != [timeline->notes count]) {
+            note = [timeline->notes objectAtIndex:timeline->curNotesPos];
+        } else break;
+    }
+
 }
 -(void)preparePlay
 {
@@ -77,7 +73,6 @@
 }
 
 - (void) readMusic {
-    NSLog(@"haha");
     //[mgr newComming;0];
 }
 
@@ -86,21 +81,12 @@
     curTimestamp = 0.0;
     //TODO:music start.
 
-    first = true;
-    syncPatCount = 0;
-
     if (keyTimer == nil) {
         keyTimer=[[NSTimer scheduledTimerWithTimeInterval: 0.7/60.0 target: self selector:@selector(keylineAnimate) userInfo:NULL repeats:YES] retain];
     }
     
     [audioPlayer play];
 
-    /*
-    if (musicTimer == nil) {
-        musicTimer=[[NSTimer scheduledTimerWithTimeInterval: 60.0/60.0 target: self selector:@selector(readMusic) userInfo:NULL repeats:YES] retain];
-    }
-     */
-    //_KeyLine.hidden=NO;
 }
 
 - (void) stop{
@@ -129,11 +115,15 @@
     [bm timeSerilizeTo:timeline];
     //[bm dealloc];
     
+    /*
     values = [timeline->timeBasedNotes allValues];
     [values retain];
     for (NSObject *obj in values) {
         NSLog(@"dedide:%@ %lf %d %d", obj, ((Note*)obj)->timestamp, ((Note*)obj)->channel, ((Note*)obj)->motion);
     }
+    */
+    [timeline arrange];
+    
     
     //[timeline dealloc];  //XXX: auto release??
     NSLog(@"try to find where core is, and auto release.");
@@ -141,23 +131,8 @@
 
 - (void)viewDidLoad
 {
-    /*
-    UIImageView *image = [[UIImageView alloc] initWithFrame:CGRectMake(5.0, 590.0, 132.0, 8.0)];
-    image.image = [UIImage imageNamed:@"Default.png"];
-    image.tag = 19900;
-    image.center = CGPointMake(120, 80);
-    */
-    //UIVC = self;
-//  image.center ＝ CGPointMake(20,40);
-    //[UIVC.view addSubview:image];
-    values = nil;
+    //values = nil;
     [self openFile];
-    
-    
-    //NSURL *url = [NSURL fileURLWithPath:@"test.mp3"];
-    //NSError *error;
-    //audioPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:&error];
-    //NSString *mp3 = [NSTemporaryDirectory() stringByAppendingPathComponent:@"test.mp3"];
     [self preparePlay];
     
     self->mgr = [[KeyLineManager alloc] initWithView:self.view];
@@ -166,9 +141,6 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self timer_start];
-    
-    NSLog(@"hello");
-    
 }
 
 - (void)didReceiveMemoryWarning
