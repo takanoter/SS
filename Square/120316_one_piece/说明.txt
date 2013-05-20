@@ -1,0 +1,31 @@
+探索的指针永远留在身边 最美的笑容也永远留在我们的颊间…
+
+CRS倾力制作 之 动漫系列7
+复苏的意志，霸气登场！
+
+#GENRE 动漫-海贼王 ED15
+#TITLE ~CRS-[初级]-永久指针
+#ARTIST CRS (Note 1063,TIME 5:06)
+#BPM 85
+#PLAYLEVEL 8
+#RANK 3
+#STAGEFILE 
+
+#GENRE 动漫-海贼王 ED15
+#TITLE ~CRS-[中级]-永久指针
+#ARTIST CRS (Note 1584,TIME 5:06)
+#BPM 85
+#PLAYLEVEL 12
+#RANK 3
+#STAGEFILE 
+
+#GENRE 动漫-海贼王 ED15
+#TITLE ~CRS-[高级]-永久指针
+#ARTIST CRS (Note 2419,TIME 5:06)
+#BPM 85
+#PLAYLEVEL 20
+#RANK 3
+#STAGEFILE 
+
+CRS的邮箱:CRS_BMS@126.COM
+CRS的QQ:253122336

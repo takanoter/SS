@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020432701747DC8A004E3AD7 /* 14 - Evans -prototype-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0204326C1747DC8A004E3AD7 /* 14 - Evans -prototype-.mp3 */; };
+		020432711747DC8A004E3AD7 /* [H]Evans[Prototype].bms in Resources */ = {isa = PBXBuildFile; fileRef = 0204326D1747DC8A004E3AD7 /* [H]Evans[Prototype].bms */; };
+		020432721747DC8A004E3AD7 /* [N]Evans[Prototype].bms in Resources */ = {isa = PBXBuildFile; fileRef = 0204326E1747DC8A004E3AD7 /* [N]Evans[Prototype].bms */; };
+		020432731747DC8A004E3AD7 /* 详细内容.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0204326F1747DC8A004E3AD7 /* 详细内容.txt */; };
+		0204327B1747E04C004E3AD7 /* 永久指针.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020432751747E04C004E3AD7 /* 永久指针.jpg */; };
+		0204327C1747E04C004E3AD7 /* 永久指针.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 020432761747E04C004E3AD7 /* 永久指针.mp3 */; };
+		0204327D1747E04C004E3AD7 /* 说明.txt in Resources */ = {isa = PBXBuildFile; fileRef = 020432771747E04C004E3AD7 /* 说明.txt */; };
+		0204327E1747E04C004E3AD7 /* ～CRS-[中级]-永久指针.bms in Resources */ = {isa = PBXBuildFile; fileRef = 020432781747E04C004E3AD7 /* ～CRS-[中级]-永久指针.bms */; };
+		0204327F1747E04C004E3AD7 /* ～CRS-[初级]-永久指针.bms in Resources */ = {isa = PBXBuildFile; fileRef = 020432791747E04C004E3AD7 /* ～CRS-[初级]-永久指针.bms */; };
+		020432801747E04C004E3AD7 /* ～CRS-[高级]-永久指针.bms in Resources */ = {isa = PBXBuildFile; fileRef = 0204327A1747E04C004E3AD7 /* ～CRS-[高级]-永久指针.bms */; };
 		0218A1EA16F9FD3700DF678E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0218A1E916F9FD3700DF678E /* UIKit.framework */; };
 		0218A1EC16F9FD3700DF678E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0218A1EB16F9FD3700DF678E /* Foundation.framework */; };
 		0218A1EE16F9FD3700DF678E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0218A1ED16F9FD3700DF678E /* CoreGraphics.framework */; };
@@ -31,7 +41,7 @@
 		024C26561734989C004B91F1 /* Entrance -another Ver.-(MX).bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C264E1734989C004B91F1 /* Entrance -another Ver.-(MX).bms */; };
 		024C26571734989C004B91F1 /* Entrance -another Ver.-(NM).bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C264F1734989C004B91F1 /* Entrance -another Ver.-(NM).bms */; };
 		024C26581734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp in Resources */ = {isa = PBXBuildFile; fileRef = 024C26501734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp */; };
-		024C265917349928004B91F1 /* Entrance -another Ver.-(EZ).bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C265B17349928004B91F1 /* Entrance -another Ver.-(EZ).bms */; };
+		024C265917349928004B91F1 /* test.bms in Resources */ = {isa = PBXBuildFile; fileRef = 024C265B17349928004B91F1 /* test.bms */; };
 		024C26681734BC29004B91F1 /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 024C265F1734BC29004B91F1 /* test.mp3 */; };
 		024C26A41734BF1A004B91F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C26A31734BF1A004B91F1 /* AVFoundation.framework */; };
 		024C26A61734BF29004B91F1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024C26A51734BF29004B91F1 /* AudioToolbox.framework */; };
@@ -59,6 +69,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0204326C1747DC8A004E3AD7 /* 14 - Evans -prototype-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 - Evans -prototype-.mp3"; sourceTree = "<group>"; };
+		0204326D1747DC8A004E3AD7 /* [H]Evans[Prototype].bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[H]Evans[Prototype].bms"; sourceTree = "<group>"; };
+		0204326E1747DC8A004E3AD7 /* [N]Evans[Prototype].bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "[N]Evans[Prototype].bms"; sourceTree = "<group>"; };
+		0204326F1747DC8A004E3AD7 /* 详细内容.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "详细内容.txt"; sourceTree = "<group>"; };
+		020432751747E04C004E3AD7 /* 永久指针.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "永久指针.jpg"; sourceTree = "<group>"; };
+		020432761747E04C004E3AD7 /* 永久指针.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "永久指针.mp3"; sourceTree = "<group>"; };
+		020432771747E04C004E3AD7 /* 说明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "说明.txt"; sourceTree = "<group>"; };
+		020432781747E04C004E3AD7 /* ～CRS-[中级]-永久指针.bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "～CRS-[中级]-永久指针.bms"; sourceTree = "<group>"; };
+		020432791747E04C004E3AD7 /* ～CRS-[初级]-永久指针.bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "～CRS-[初级]-永久指针.bms"; sourceTree = "<group>"; };
+		0204327A1747E04C004E3AD7 /* ～CRS-[高级]-永久指针.bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "～CRS-[高级]-永久指针.bms"; sourceTree = "<group>"; };
 		0218A1E616F9FD3700DF678E /* Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Square.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0218A1E916F9FD3700DF678E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0218A1EB16F9FD3700DF678E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -91,7 +111,7 @@
 		024C264E1734989C004B91F1 /* Entrance -another Ver.-(MX).bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Entrance -another Ver.-(MX).bms"; sourceTree = "<group>"; };
 		024C264F1734989C004B91F1 /* Entrance -another Ver.-(NM).bms */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Entrance -another Ver.-(NM).bms"; sourceTree = "<group>"; };
 		024C26501734989C004B91F1 /* Entrance -Another ver.-(sImage).bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "Entrance -Another ver.-(sImage).bmp"; sourceTree = "<group>"; };
-		024C265A17349928004B91F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = "en.lproj/Entrance -another Ver.-(EZ).bms"; sourceTree = "<group>"; };
+		024C265A17349928004B91F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text; name = en; path = en.lproj/test.bms; sourceTree = "<group>"; };
 		024C26601734BC29004B91F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = en; path = en.lproj/test.mp3; sourceTree = "<group>"; };
 		024C26A31734BF1A004B91F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		024C26A51734BF29004B91F1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -134,6 +154,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0204326B1747DC8A004E3AD7 /* Evans */ = {
+			isa = PBXGroup;
+			children = (
+				0204326C1747DC8A004E3AD7 /* 14 - Evans -prototype-.mp3 */,
+				0204326D1747DC8A004E3AD7 /* [H]Evans[Prototype].bms */,
+				0204326E1747DC8A004E3AD7 /* [N]Evans[Prototype].bms */,
+				0204326F1747DC8A004E3AD7 /* 详细内容.txt */,
+			);
+			name = Evans;
+			path = 120515_Evans;
+			sourceTree = "<group>";
+		};
+		020432741747E04C004E3AD7 /* one_piece */ = {
+			isa = PBXGroup;
+			children = (
+				020432751747E04C004E3AD7 /* 永久指针.jpg */,
+				020432761747E04C004E3AD7 /* 永久指针.mp3 */,
+				020432771747E04C004E3AD7 /* 说明.txt */,
+				020432781747E04C004E3AD7 /* ～CRS-[中级]-永久指针.bms */,
+				020432791747E04C004E3AD7 /* ～CRS-[初级]-永久指针.bms */,
+				0204327A1747E04C004E3AD7 /* ～CRS-[高级]-永久指针.bms */,
+			);
+			name = one_piece;
+			path = 120316_one_piece;
+			sourceTree = "<group>";
+		};
 		0218A1DD16F9FD3700DF678E = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +212,8 @@
 		0218A1EF16F9FD3700DF678E /* Square */ = {
 			isa = PBXGroup;
 			children = (
+				020432741747E04C004E3AD7 /* one_piece */,
+				0204326B1747DC8A004E3AD7 /* Evans */,
 				024C26471734989C004B91F1 /* Entrance */,
 				024C263E17349882004B91F1 /* ASPriorityQueue.h */,
 				024C263F17349882004B91F1 /* ASPriorityQueue.m */,
@@ -226,7 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				024C265F1734BC29004B91F1 /* test.mp3 */,
-				024C265B17349928004B91F1 /* Entrance -another Ver.-(EZ).bms */,
+				024C265B17349928004B91F1 /* test.bms */,
 				024C264B1734989C004B91F1 /* Entrance -another Ver.-(HD).bms */,
 				024C264C1734989C004B91F1 /* Entrance -Another ver.-(Image).jpg */,
 				024C264D1734989C004B91F1 /* Entrance -Another ver.-(Intro).txt */,
@@ -296,7 +344,7 @@
 				0218A20016F9FD3700DF678E /* Default-568h@2x.png in Resources */,
 				0218A20616F9FD3700DF678E /* SquareViewController.xib in Resources */,
 				0218A20D16FA118B00DF678E /* KeyLineManager.h in Resources */,
-				024C265917349928004B91F1 /* Entrance -another Ver.-(EZ).bms in Resources */,
+				024C265917349928004B91F1 /* test.bms in Resources */,
 				024C26531734989C004B91F1 /* Entrance -another Ver.-(HD).bms in Resources */,
 				024C26541734989C004B91F1 /* Entrance -Another ver.-(Image).jpg in Resources */,
 				024C26551734989C004B91F1 /* Entrance -Another ver.-(Intro).txt in Resources */,
@@ -327,6 +375,16 @@
 				025BFCE5173F8F30006C6CB9 /* KEYB2.png in Resources */,
 				025BFCEC173F9FFA006C6CB9 /* EndFront_0.png in Resources */,
 				025BFCED173F9FFA006C6CB9 /* EndFront_1.png in Resources */,
+				020432701747DC8A004E3AD7 /* 14 - Evans -prototype-.mp3 in Resources */,
+				020432711747DC8A004E3AD7 /* [H]Evans[Prototype].bms in Resources */,
+				020432721747DC8A004E3AD7 /* [N]Evans[Prototype].bms in Resources */,
+				020432731747DC8A004E3AD7 /* 详细内容.txt in Resources */,
+				0204327B1747E04C004E3AD7 /* 永久指针.jpg in Resources */,
+				0204327C1747E04C004E3AD7 /* 永久指针.mp3 in Resources */,
+				0204327D1747E04C004E3AD7 /* 说明.txt in Resources */,
+				0204327E1747E04C004E3AD7 /* ～CRS-[中级]-永久指针.bms in Resources */,
+				0204327F1747E04C004E3AD7 /* ～CRS-[初级]-永久指针.bms in Resources */,
+				020432801747E04C004E3AD7 /* ～CRS-[高级]-永久指针.bms in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,12 +424,12 @@
 			name = SquareViewController.xib;
 			sourceTree = "<group>";
 		};
-		024C265B17349928004B91F1 /* Entrance -another Ver.-(EZ).bms */ = {
+		024C265B17349928004B91F1 /* test.bms */ = {
 			isa = PBXVariantGroup;
 			children = (
 				024C265A17349928004B91F1 /* en */,
 			);
-			name = "Entrance -another Ver.-(EZ).bms";
+			name = test.bms;
 			sourceTree = "<group>";
 		};
 		024C265F1734BC29004B91F1 /* test.mp3 */ = {

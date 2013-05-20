@@ -33,7 +33,7 @@
 @implementation SquareViewController
 
 
-//线程安全？？？？
+//需要保证线程安全？？？？  ----回调机制 
 - (void) keylineAnimate {
     //_KeyLine.center = CGPointMake(_KeyLine.center.x, _KeyLine.center.y-keyline_speed);
     [mgr animate];
@@ -45,7 +45,9 @@
     if (timeline->curNotesPos != [timeline->notes count]) {
         note = [timeline->notes objectAtIndex:timeline->curNotesPos]; //FIXME: out of boundary
     }
-    while ((note!=nil) && (curTimestamp + 2 /*+595/5*(0.7/60)*/ > note->timestamp)) {
+    
+    //此处有深意:1.7
+    while ((note!=nil) && (curTimestamp + 1.41 /*+595/5*(0.7/60)*/ > note->timestamp)) {
         NSLog(@"note:timestamp:%lf channel:%d", note->timestamp, note->channel);
         [mgr newCommingOnChannel:(note->channel)%6];
         timeline->curNotesPos++;
@@ -54,6 +56,19 @@
         } else break;
     }
 
+    for (int i=0; i<6; i++) {
+        note = nil;
+        if (timeline->curChannelsPos[i] != [timeline->channels[i] count]) {
+            note = [timeline->channels[i] objectAtIndex:timeline->curChannelsPos[i]];
+        }
+        if ((note!=nil) && (curTimestamp + 2 > note->timestamp)) {
+            timeline->isShow[i] = !timeline->isShow[i];
+            timeline->curChannelsPos[i]++;
+        }
+        if (timeline->isShow[i]) {
+            [mgr newCommingOnChannel:(note->channel)%6];
+        }
+    }
 }
 -(void)preparePlay
 {
@@ -80,13 +95,12 @@
 {
     curTimestamp = 0.0;
     //TODO:music start.
-
+    
     if (keyTimer == nil) {
         keyTimer=[[NSTimer scheduledTimerWithTimeInterval: 0.7/60.0 target: self selector:@selector(keylineAnimate) userInfo:NULL repeats:YES] retain];
     }
     
     [audioPlayer play];
-
 }
 
 - (void) stop{
@@ -105,7 +119,7 @@
 
 -(void)openFile
 {
-    bm = [[BeMusic alloc] initFromFile:@"Entrance -another Ver.-(EZ)" ofType:@"bms"];
+    bm = [[BeMusic alloc] initFromFile:@"test" ofType:@"bms"];
     if (nil == bm) {
         NSLog(@"oh failed to init bm");
         return;
@@ -123,7 +137,6 @@
     }
     */
     [timeline arrange];
-    
     
     //[timeline dealloc];  //XXX: auto release??
     NSLog(@"try to find where core is, and auto release.");
